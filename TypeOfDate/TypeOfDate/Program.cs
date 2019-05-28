@@ -5,6 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Reflection;
 
+/// <summary>
+/// Горюнов Евгений
+/// С помощью рефлексии выведите все свойства структуры DateTime
+/// </summary>
+
 namespace TypeOfDate
 {
 	class Program

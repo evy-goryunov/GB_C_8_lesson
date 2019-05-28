@@ -12,8 +12,7 @@ namespace TypeOfDate
 		static void Main(string[] args)
 		{
 			Type typeOfDateTime = typeof(DateTime);
-			foreach (var prop in typeOfDateTime.GetProperties()) { Console.WriteLine(prop.Name); }
-			Console.ReadKey();
+			foreach (var p in typeOfDateTime.GetProperties()) { Console.WriteLine(p.Name); }
 		}
 	}
 }

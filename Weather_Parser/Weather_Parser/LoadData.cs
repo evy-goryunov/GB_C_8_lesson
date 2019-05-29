@@ -26,7 +26,7 @@ namespace Weather_Parser
 		private WeatherData GetData(KeyValuePair<string,string> pair)
 		{
 			WeatherData wet = new WeatherData();
-
+			
 			string xml = client.DownloadString(pair.Value);
 			//Console.WriteLine(xml);
 
